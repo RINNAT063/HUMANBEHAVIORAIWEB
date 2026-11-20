@@ -5,7 +5,7 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <h1> NHÓM HỆ ĐIỀU HÀNH 2026.2027 - 	2611COMP133202</h1>
+    <h1> NHÓM 03 - HỆ ĐIỀU HÀNH 2026.2027 - 	2611COMP133202</h1>
     <ol>
       <li>Huỳnh Trần Gia Huy - 50.01.103.025</li>
       <li>Thạch Võ Diễm Ngọc - 50.01.103.050</li>
