@@ -1,0 +1,24 @@
+Hãy phân tích video và trả lời bằng tiếng Việt.
+
+Trả về JSON hợp lệ.
+
+Không dùng markdown.
+Không dùng ```json.
+Không giải thích thêm.
+
+Cấu trúc:
+
+{
+  "people":[
+    {
+      "id":1,
+      "gender":"",
+      "age":"",
+      "behavior":"",
+      "action":""
+    }
+  ],
+  "summary":""
+}
+
+Chỉ trả về JSON.

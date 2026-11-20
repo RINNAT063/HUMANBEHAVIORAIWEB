@@ -1,0 +1,47 @@
+{
+"people": [
+{
+"id": 1,
+"time": "00:02-00:12",
+"appearance": "Xuất hiện ở phía trái khung hình, tóc dài màu nâu đen, mặc áo hai dây màu xanh ngọc có họa tiết hoa văn ở thân trên và hở lưng. Đeo một chiếc vòng tay màu đen ở cổ tay phải.",
+"gender": "Nữ",
+"age": "20-30",
+"behavior": "Quan sát, chụp ảnh",
+"actions": [
+{
+"start": "00:02",
+"end": "00:03",
+"type": "movement",
+"description": "Người phụ nữ di chuyển vào khung hình từ bên trái và đứng quay lưng về phía máy quay."
+},
+{
+"start": "00:03",
+"end": "00:04",
+"type": "action",
+"description": "Cô ấy cầm máy ảnh lên và đưa máy ảnh ngang tầm mắt."
+},
+{
+"start": "00:04",
+"end": "00:10",
+"type": "action",
+"description": "Cô ấy giữ máy ảnh ở ngang tầm mắt, nhìn qua ống ngắm."
+},
+{
+"start": "00:10",
+"end": "00:11",
+"type": "action",
+"description": "Cô ấy hạ máy ảnh xuống."
+},
+{
+"start": "00:11",
+"end": "00:12",
+"type": "movement",
+"description": "Cô ấy quay người và di chuyển ra khỏi khung hình về phía bên trái."
+}
+],
+"interaction_people": [],
+"interaction_detail": ""
+}
+],
+"summary": "Video bắt đầu với cảnh quay toàn cảnh bờ biển và thành phố từ trên cao, hình ảnh mờ nhòe. Một người phụ nữ xuất hiện từ bên trái khung hình, quay lưng về phía máy quay. Cô ấy cầm một chiếc máy ảnh và đưa lên ngang tầm mắt, hướng về phía biển và các tòa nhà. Sau đó, cô ấy hạ máy ảnh xuống và di chuyển khỏi khung hình."
+}

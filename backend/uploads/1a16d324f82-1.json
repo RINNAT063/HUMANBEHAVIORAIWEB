@@ -1,0 +1,252 @@
+{
+"people": [
+{
+"id": 1,
+"time": "00:00-00:15",
+"appearance": "Xuất hiện ở phía bên phải khung hình. Tóc ngắn màu xám, đeo kính gọng hồng, mặc áo thun dài tay màu xám nhạt.",
+"gender": "Nữ",
+"age": "65-75",
+"behavior": "Tập thể dục, di chuyển tay, mỉm cười.",
+"actions": [
+{
+"start": "00:00",
+"end": "00:01",
+"type": "movement",
+"description": "Đứng tại chỗ, vung hai tay từ ngang ngực lên cao, nắm chặt tay."
+},
+{
+"start": "00:01",
+"end": "00:03",
+"type": "movement",
+"description": "Hạ hai tay xuống ngang ngực, sau đó lại vung lên cao."
+},
+{
+"start": "00:03",
+"end": "00:05",
+"type": "movement",
+"description": "Thực hiện động tác vung tay từ ngang ngực sang hai bên hông."
+},
+{
+"start": "00:05",
+"end": "00:07",
+"type": "movement",
+"description": "Vung hai tay lên cao, nắm chặt tay, sau đó hạ xuống."
+},
+{
+"start": "00:07",
+"end": "00:09",
+"type": "movement",
+"description": "Giơ hai tay lên cao, nắm chặt tay, sau đó hạ xuống và bắt đầu vung tay qua lại."
+},
+{
+"start": "00:09",
+"end": "00:11",
+"type": "movement",
+"description": "Vung tay qua lại ngang ngực."
+},
+{
+"start": "00:11",
+"end": "00:15",
+"type": "movement",
+"description": "Vung hai tay lên cao, nắm chặt tay, sau đó hạ xuống và tiếp tục các động tác vung tay."
+}
+],
+"interaction_people": [
+2,
+3,
+4,
+5
+],
+"interaction_detail": "Cùng thực hiện các động tác thể dục theo nhóm với những người khác."
+},
+{
+"id": 2,
+"time": "00:00-00:15",
+"appearance": "Xuất hiện ở giữa khung hình, phía bên trái Người 1. Tóc màu đen buộc gọn, mặc áo thun dài tay màu hồng nhạt và quần dài màu xanh đậm.",
+"gender": "Nữ",
+"age": "60-70",
+"behavior": "Tập thể dục, di chuyển tay.",
+"actions": [
+{
+"start": "00:00",
+"end": "00:01",
+"type": "movement",
+"description": "Đứng tại chỗ, vung hai tay từ ngang ngực lên cao, nắm chặt tay."
+},
+{
+"start": "00:01",
+"end": "00:03",
+"type": "movement",
+"description": "Hạ hai tay xuống ngang ngực, sau đó lại vung lên cao."
+},
+{
+"start": "00:03",
+"end": "00:05",
+"type": "movement",
+"description": "Thực hiện động tác vung tay từ ngang ngực sang hai bên hông."
+},
+{
+"start": "00:05",
+"end": "00:07",
+"type": "movement",
+"description": "Vung hai tay lên cao, nắm chặt tay, sau đó hạ xuống."
+},
+{
+"start": "00:07",
+"end": "00:09",
+"type": "movement",
+"description": "Giơ hai tay lên cao, nắm chặt tay, sau đó hạ xuống và bắt đầu vung tay qua lại."
+},
+{
+"start": "00:09",
+"end": "00:11",
+"type": "movement",
+"description": "Vung tay qua lại ngang ngực."
+},
+{
+"start": "00:11",
+"end": "00:15",
+"type": "movement",
+"description": "Vung hai tay lên cao, nắm chặt tay, sau đó hạ xuống và tiếp tục các động tác vung tay."
+}
+],
+"interaction_people": [
+1,
+3,
+4,
+5
+],
+"interaction_detail": "Cùng thực hiện các động tác thể dục theo nhóm với những người khác."
+},
+{
+"id": 3,
+"time": "00:00-00:15",
+"appearance": "Xuất hiện ở phía sau Người 2, hơi lệch về bên phải. Tóc ngắn màu đen, mặc áo thun trắng bên trong và khoác áo khoác ngoài màu xanh dương đậm.",
+"gender": "Nữ",
+"age": "60-70",
+"behavior": "Tập thể dục, di chuyển tay.",
+"actions": [
+{
+"start": "00:00",
+"end": "00:01",
+"type": "movement",
+"description": "Đứng tại chỗ, vung hai tay từ ngang ngực lên cao, nắm chặt tay."
+},
+{
+"start": "00:01",
+"end": "00:03",
+"type": "movement",
+"description": "Hạ hai tay xuống ngang ngực, sau đó lại vung lên cao."
+},
+{
+"start": "00:03",
+"end": "00:05",
+"type": "movement",
+"description": "Thực hiện động tác vung tay từ ngang ngực sang hai bên hông."
+},
+{
+"start": "00:05",
+"end": "00:07",
+"type": "movement",
+"description": "Vung hai tay lên cao, nắm chặt tay, sau đó hạ xuống."
+},
+{
+"start": "00:07",
+"end": "00:09",
+"type": "movement",
+"description": "Giơ hai tay lên cao, nắm chặt tay, sau đó hạ xuống và bắt đầu vung tay qua lại."
+},
+{
+"start": "00:09",
+"end": "00:11",
+"type": "movement",
+"description": "Vung tay qua lại ngang ngực."
+},
+{
+"start": "00:11",
+"end": "00:15",
+"type": "movement",
+"description": "Vung hai tay lên cao, nắm chặt tay, sau đó hạ xuống và tiếp tục các động tác vung tay."
+}
+],
+"interaction_people": [
+1,
+2,
+4,
+5
+],
+"interaction_detail": "Cùng thực hiện các động tác thể dục theo nhóm với những người khác."
+},
+{
+"id": 4,
+"time": "00:00-00:15",
+"appearance": "Xuất hiện phía sau Người 1 và Người 3, phần lớn bị che khuất. Chỉ thấy một phần cánh tay trái và đỉnh đầu. Mặc áo màu tối.",
+"gender": "Nữ",
+"age": "60-70",
+"behavior": "Tập thể dục, di chuyển tay.",
+"actions": [
+{
+"start": "00:00",
+"end": "00:02",
+"type": "movement",
+"description": "Vung tay trái lên xuống theo nhịp điệu cùng nhóm, nắm chặt tay."
+},
+{
+"start": "00:02",
+"end": "00:10",
+"type": "absent",
+"description": "Bị che khuất hoàn toàn."
+},
+{
+"start": "00:10",
+"end": "00:11",
+"type": "movement",
+"description": "Thấy một phần cánh tay vung lên xuống."
+},
+{
+"start": "00:11",
+"end": "00:15",
+"type": "absent",
+"description": "Bị che khuất hoàn toàn."
+}
+],
+"interaction_people": [
+1,
+2,
+3,
+5
+],
+"interaction_detail": "Thực hiện các động tác thể dục cùng nhóm nhưng phần lớn thời gian bị che khuất."
+},
+{
+"id": 5,
+"time": "00:12-00:15",
+"appearance": "Xuất hiện từ phía bên trái khung hình. Tóc dài màu đen buộc cao, mặc bộ đồ y tá màu xanh dương đậm (scrubs) và đeo ống nghe y tế quanh cổ.",
+"gender": "Nữ",
+"age": "25-35",
+"behavior": "Hướng dẫn, tập thể dục, mỉm cười.",
+"actions": [
+{
+"start": "00:00",
+"end": "00:12",
+"type": "absent",
+"description": "Không xuất hiện trong khung hình."
+},
+{
+"start": "00:12",
+"end": "00:15",
+"type": "movement",
+"description": "Bước vào khung hình, đứng ở vị trí đầu tiên bên trái, thực hiện động tác giơ hai tay lên cao, nắm chặt tay theo nhịp điệu cùng nhóm."
+}
+],
+"interaction_people": [
+1,
+2,
+3,
+4
+],
+"interaction_detail": "Hướng dẫn nhóm thực hiện các động tác thể dục, đứng cùng hàng và cùng tập với những người khác."
+}
+],
+"summary": "Video quay cảnh năm người phụ nữ, gồm bốn người lớn tuổi và một người trẻ hơn, đang thực hiện các động tác thể dục đồng bộ trong một căn phòng sáng sủa. Họ cùng nhau vung tay lên xuống theo nhịp điệu. Người phụ nữ trẻ hơn mặc đồng phục y tế và đứng ở phía ngoài cùng bên trái, dường như đang hướng dẫn. Hoạt động này diễn ra trong nhà, gần cửa sổ lớn, và có vẻ là một buổi tập thể dục nhóm."
+}

@@ -1,0 +1,95 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở góc trái khung hình, tóc buộc đuôi ngựa thấp màu đen, mặc áo bra thể thao màu hồng và quần short màu đen, đi giày thể thao màu trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng hai chân rộng bằng vai, hai tay chống hông, thực hiện các động tác xoay hông và lắc lư thân trên theo nhịp."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở bên trái, cạnh Người 3. Tóc búi cao, mặc áo bra thể thao màu hồng và quần short màu đen, đi giày thể thao màu trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng hai chân rộng bằng vai, hai tay chống hông, thực hiện các động tác xoay hông và lắc lư thân trên theo nhịp."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    },
+    {
+      "id": 3,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở giữa khung hình, tóc búi cao, mặc áo bra thể thao màu hồng và quần short màu đen, đi giày thể thao màu trắng và tất cao cổ màu trắng sọc đen.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng hai chân rộng bằng vai, hai tay chống hông, thực hiện các động tác xoay hông và lắc lư thân trên theo nhịp."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    },
+    {
+      "id": 4,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở bên phải, cạnh Người 3. Tóc búi thấp, mặc áo bra thể thao màu hồng và quần short màu đen, đi giày thể thao màu trắng.",
+      "gender": "Nữ",
+      "age": "20-30",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng hai chân rộng bằng vai, hai tay chống hông, thực hiện các động tác xoay hông và lắc lư thân trên theo nhịp."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    },
+    {
+      "id": 5,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở góc phải khung hình, tóc buộc đuôi ngựa thấp màu đen, mặc áo bra thể thao màu hồng và quần short màu đen, đi giày thể thao màu trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng hai chân rộng bằng vai, hai tay chống hông, thực hiện các động tác xoay hông và lắc lư thân trên theo nhịp."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    }
+  ],
+  "summary": "Video quay cảnh năm phụ nữ đang tập thể dục trong một phòng tập có gương lớn. Họ đều mặc trang phục thể thao màu hồng và đen, đi giày trắng. Năm người phụ nữ cùng thực hiện các động tác xoay hông và lắc lư thân trên theo nhịp điệu. Người phụ nữ ở giữa có vẻ là người hướng dẫn cho cả nhóm."
+}

@@ -1,0 +1,141 @@
+{
+"people": [
+{
+"id": 1,
+"time": "00:00-00:12",
+"appearance": "Xuất hiện bên trái khung hình, tóc màu nâu nhạt, đeo kính râm, mặc áo sơ mi sọc xanh trắng, quần jean xanh nhạt.",
+"gender": "Nam",
+"age": "20-30",
+"behavior": "Đứng, nói chuyện, đi bộ",
+"actions": [
+{
+"start": "00:00",
+"end": "00:01",
+"type": "action",
+"description": "Đứng đối diện Người 2, miệng mở, nhìn Người 2."
+},
+{
+"start": "00:01",
+"end": "00:04",
+"type": "action",
+"description": "Đứng đối diện Người 2, đưa tay phải lên che miệng thoáng qua, sau đó hạ tay xuống và tiếp tục cử chỉ tay."
+},
+{
+"start": "00:04",
+"end": "00:06",
+"type": "action",
+"description": "Đứng đối diện Người 2, giơ ngón trỏ phải chỉ về phía Người 2, sau đó nhìn Người 2."
+},
+{
+"start": "00:06",
+"end": "00:09",
+"type": "action",
+"description": "Đứng đối diện Người 2, miệng mở, đầu hơi nghiêng, nhìn Người 2, sau đó quay mặt đi một chút."
+},
+{
+"start": "00:09",
+"end": "00:11",
+"type": "movement",
+"description": "Quay lưng về phía Người 2, bắt đầu bước đi và giật tay ra khi Người 2 nắm lấy."
+},
+{
+"start": "00:11",
+"end": "00:12",
+"type": "movement",
+"description": "Quay người ra khỏi Người 2, nhìn lại thoáng qua rồi quay đầu đi thẳng và bước ra khỏi khung hình."
+},
+{
+"start": "00:12",
+"end": "00:20",
+"type": "absent",
+"description": "Không còn xuất hiện trong khung hình."
+}
+],
+"interaction_people": [
+2
+],
+"interaction_detail": "Người 1 đứng đối diện Người 2, nhìn và có những cử chỉ tay về phía Người 2. Người 1 giật tay ra khi Người 2 nắm lấy."
+},
+{
+"id": 2,
+"time": "00:00-00:20",
+"appearance": "Xuất hiện bên phải khung hình, tóc dài màu đen, mặc áo phông đỏ, áo khoác cardigan ngắn màu xám đậm, quần dài màu xanh ngọc.",
+"gender": "Nữ",
+"age": "20-30",
+"behavior": "Đứng, nói chuyện, giơ tay, kéo tay, đứng yên",
+"actions": [
+{
+"start": "00:00",
+"end": "00:01",
+"type": "action",
+"description": "Đứng đối diện Người 1, giơ hai tay lên gần mặt, miệng mở."
+},
+{
+"start": "00:01",
+"end": "00:03",
+"type": "action",
+"description": "Đứng đối diện Người 1, siết chặt nắm đấm, sau đó chắp hai tay lại như van nài, di chuyển tay lên xuống."
+},
+{
+"start": "00:03",
+"end": "00:05",
+"type": "action",
+"description": "Đứng đối diện Người 1, chạm tay lên trán, sau đó giơ cả hai tay lên cao."
+},
+{
+"start": "00:05",
+"end": "00:07",
+"type": "action",
+"description": "Đứng đối diện Người 1, tiếp tục cử chỉ với hai tay giơ lên, sau đó hạ tay xuống và mở lòng bàn tay."
+},
+{
+"start": "00:07",
+"end": "00:09",
+"type": "action",
+"description": "Đứng đối diện Người 1, nhìn lên với miệng mở, sau đó lại siết chặt nắm đấm."
+},
+{
+"start": "00:09",
+"end": "00:10",
+"type": "action",
+"description": "Nghiêng người về phía trước và nắm lấy cánh tay của Người 1."
+},
+{
+"start": "00:10",
+"end": "00:11",
+"type": "action",
+"description": "Giữ tay Người 1 và cố gắng kéo anh ta lại khi anh ta bước đi, sau đó thả tay ra."
+},
+{
+"start": "00:11",
+"end": "00:12",
+"type": "action",
+"description": "Đứng quay lưng một chút về phía Người 1, sau đó quay đầu nhìn theo Người 1, siết chặt nắm đấm."
+},
+{
+"start": "00:12",
+"end": "00:14",
+"type": "action",
+"description": "Đứng một mình, nhìn về phía bên trái (nơi Người 1 rời đi), siết chặt nắm đấm, sau đó buông tay."
+},
+{
+"start": "00:14",
+"end": "00:17",
+"type": "action",
+"description": "Quay người hơi sang phải, nhìn xuống, sau đó nhìn lên và sang phải, đưa tay lên ngực."
+},
+{
+"start": "00:17",
+"end": "00:20",
+"type": "action",
+"description": "Đứng nhìn thẳng, hai tay chắp lại, nhìn hơi xuống, sau đó nhìn lên, siết chặt nắm đấm."
+}
+],
+"interaction_people": [
+1
+],
+"interaction_detail": "Người 2 đứng đối diện Người 1, nhìn và có nhiều cử chỉ tay về phía Người 1. Người 2 nắm lấy cánh tay Người 1 khi anh ta cố gắng bước đi."
+}
+],
+"summary": "Video cho thấy một người đàn ông và một người phụ nữ đang đứng đối diện nhau trên cầu. Người phụ nữ liên tục thực hiện các cử chỉ tay và miệng mở. Người đàn ông cũng nhìn và cử chỉ tay về phía người phụ nữ. Sau đó, người phụ nữ nắm lấy cánh tay người đàn ông khi anh ta quay người và cố gắng bước đi. Người đàn ông giật tay ra và rời khỏi khung hình, để lại người phụ nữ đứng một mình trên cầu và tiếp tục cử chỉ."
+}

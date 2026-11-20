@@ -1,0 +1,75 @@
+{
+"people": [
+{
+"id": 1,
+"time": "00:00-00:12",
+"appearance": "Xuất hiện ở phía bên trái khung hình, tóc ngắn màu nâu sáng, đeo kính râm. Mặc áo sơ mi sọc xanh trắng, quần jean xanh nhạt và đeo đồng hồ ở tay trái.",
+"gender": "Nam",
+"age": "20-30",
+"behavior": "Đứng, nói chuyện, cử động tay, rời đi",
+"actions": [
+{
+"start": "00:00",
+"end": "00:09",
+"type": "action",
+"description": "Đứng đối mặt với Người 2, cử động miệng và tay, có vẻ đang nói chuyện."
+},
+{
+"start": "00:09",
+"end": "00:11",
+"type": "movement",
+"description": "Kéo tay ra khỏi Người 2, sau đó quay người và bắt đầu đi về phía bên trái khung hình."
+},
+{
+"start": "00:11",
+"end": "00:12",
+"type": "absent",
+"description": "Đi bộ ra khỏi khung hình về phía bên trái."
+}
+],
+"interaction_people": [
+2
+],
+"interaction_detail": "Người 1 đứng đối mặt với Người 2, cử động miệng và tay. Sau đó Người 1 kéo tay mình ra khi Người 2 chạm vào và quay người bỏ đi."
+},
+{
+"id": 2,
+"time": "00:00-00:20",
+"appearance": "Xuất hiện ở phía bên phải khung hình. Tóc dài màu đen, mặc áo phông đỏ, áo khoác cardigan màu xám đậm và quần dài màu xanh ngọc.",
+"gender": "Nữ",
+"age": "20-30",
+"behavior": "Đứng, nói chuyện, cử động tay, theo dõi, một mình",
+"actions": [
+{
+"start": "00:00",
+"end": "00:09",
+"type": "action",
+"description": "Đứng đối mặt với Người 1, cử động miệng và hai tay liên tục, dường như đang nói chuyện rất nhiều."
+},
+{
+"start": "00:09",
+"end": "00:11",
+"type": "action",
+"description": "Dùng hai tay nắm lấy cánh tay Người 1, sau đó buông tay ra khi Người 1 bỏ đi."
+},
+{
+"start": "00:11",
+"end": "00:13",
+"type": "movement",
+"description": "Quay người về phía Người 1 khi anh ta rời đi, sau đó đứng yên một chút."
+},
+{
+"start": "00:13",
+"end": "00:20",
+"type": "action",
+"description": "Đứng một mình trên cầu, nhìn xung quanh và thi thoảng đưa tay lên ngực."
+}
+],
+"interaction_people": [
+1
+],
+"interaction_detail": "Người 2 đứng đối mặt với Người 1, liên tục cử động miệng và tay. Người 2 nắm lấy cánh tay Người 1 khi anh ta quay lưng bỏ đi."
+}
+],
+"summary": "Một người đàn ông và một người phụ nữ đứng đối diện nhau trên cầu. Người phụ nữ cử chỉ tay liên tục và dường như đang nói chuyện. Người đàn ông đứng tương đối yên lặng, thỉnh thoảng cử động tay. Người phụ nữ cố gắng nắm lấy tay người đàn ông, nhưng anh ta kéo tay lại và rời đi. Người phụ nữ sau đó đứng một mình trên cầu, nhìn xung quanh."
+}

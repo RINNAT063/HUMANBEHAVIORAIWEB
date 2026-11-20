@@ -1,0 +1,120 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện cuối góc trái, tóc đen buộc cao, mặc áo bra thể thao màu hồng và quần short đen, đi giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng thẳng người, chân dang rộng, hai tay chống hông và thực hiện động tác xoay hông sang hai bên theo nhạc."
+        }
+      ],
+      "interaction_people": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "interaction_detail": "Cả nhóm 5 người cùng đứng trong phòng tập và thực hiện các động tác xoay hông đồng bộ theo nhạc."
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở vị trí giữa bên trái, tóc đen buộc thấp, mặc áo bra thể thao màu hồng và quần short đen, đi giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng thẳng người, chân dang rộng, hai tay chống hông và thực hiện động tác xoay hông sang hai bên theo nhạc."
+        }
+      ],
+      "interaction_people": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "interaction_detail": "Cả nhóm 5 người cùng đứng trong phòng tập và thực hiện các động tác xoay hông đồng bộ theo nhạc."
+    },
+    {
+      "id": 3,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở vị trí trung tâm, tóc đen búi cao, mặc áo bra thể thao màu hồng và quần short đen, đi tất cao cổ màu trắng sọc đen, đi giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng thẳng người, chân dang rộng, hai tay chống hông và thực hiện động tác xoay hông sang hai bên theo nhạc."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "interaction_detail": "Cả nhóm 5 người cùng đứng trong phòng tập và thực hiện các động tác xoay hông đồng bộ theo nhạc."
+    },
+    {
+      "id": 4,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở vị trí giữa bên phải, tóc vàng buộc thấp, mặc áo bra thể thao màu hồng và quần short đen, đi giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "20-30",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng thẳng người, chân dang rộng, hai tay chống hông và thực hiện động tác xoay hông sang hai bên theo nhạc."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "interaction_detail": "Cả nhóm 5 người cùng đứng trong phòng tập và thực hiện các động tác xoay hông đồng bộ theo nhạc."
+    },
+    {
+      "id": 5,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện cuối góc phải, tóc đen buộc thấp, mặc áo bra thể thao màu hồng và quần short đen, đi giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng thẳng người, chân dang rộng, hai tay chống hông và thực hiện động tác xoay hông sang hai bên theo nhạc."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "interaction_detail": "Cả nhóm 5 người cùng đứng trong phòng tập và thực hiện các động tác xoay hông đồng bộ theo nhạc."
+    }
+  ],
+  "summary": "Video ghi lại cảnh năm người phụ nữ đang tập thể dục trong một căn phòng có gương. Họ mặc áo bra thể thao màu hồng và quần short đen. Tất cả cùng thực hiện động tác xoay hông theo nhạc một cách đồng bộ."
+}

@@ -1,0 +1,13 @@
+Hãy phân tích video và trả lời bằng tiếng Việt.
+Yêu cầu:
+1. Cho biết số người xuất hiện trong video.
+
+2. Với mỗi người:
+    - Giới tính (nếu nhận biết được)
+    - Độ tuổi ước lượng
+    - Hành động đang thực hiện (mô tả ngắn ví dụ như: nhảy múa, đi bộ, cười,...)
+    - Hành động đang thực hiện (chi tiết hơn, mô tả tương ứng từ 1-2 dòng A5)
+
+3. Tóm tắt ngắn gọn nội dung video.
+
+Không giải thích thêm ngoài yêu cầu trên.

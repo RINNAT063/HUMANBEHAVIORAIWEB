@@ -1,0 +1,41 @@
+{
+  "people":[
+    {
+      "id":1,
+      "time":"00:00-00:03",
+      "appearance":"Xuất hiện ở giữa khung hình bên trái, tóc đen ngắn, mặc áo thun trắng, quần đùi đen và giày thể thao trắng.",
+      "gender":"Nam",
+      "age":"25-35",
+      "behavior":"Tập thể dục",
+      "actions":[
+        {
+          "start": "00:00",
+          "end": "00:03",
+          "type": "movement",
+          "description": "Người này thực hiện động tác nhảy tại chỗ. Hai tay di chuyển lên xuống song song với thân người, chân nhấc lên xuống nhịp nhàng."
+        }
+      ],
+      "interaction_people":[],
+      "interaction_detail":""
+    },
+    {
+      "id":2,
+      "time":"00:00-00:03",
+      "appearance":"Xuất hiện ở giữa khung hình bên phải, tóc nâu buộc cao, mặc áo bra thể thao đen và quần legging đen, giày thể thao trắng.",
+      "gender":"Nữ",
+      "age":"25-35",
+      "behavior":"Tập thể dục",
+      "actions":[
+        {
+          "start": "00:00",
+          "end": "00:03",
+          "type": "movement",
+          "description": "Người này thực hiện động tác nhảy tại chỗ. Hai tay di chuyển lên xuống song song với thân người, chân nhấc lên xuống nhịp nhàng."
+        }
+      ],
+      "interaction_people":[],
+      "interaction_detail":""
+    }
+  ],
+  "summary":"Video cho thấy một người đàn ông và một người phụ nữ đang thực hiện các động tác tập thể dục. Cả hai đều mặc trang phục thể thao và đứng trên thảm tập màu đen. Họ cùng thực hiện động tác nhảy tại chỗ, giơ tay lên xuống."
+}

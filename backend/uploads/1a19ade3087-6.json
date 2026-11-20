@@ -1,0 +1,120 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở góc trái khung hình, tóc buộc đuôi ngựa, mặc áo crop top màu hồng, quần đùi đen, giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng với hai chân dạng rộng hơn vai, hai tay chống hông, thực hiện các động tác nhún người và xoay hông nhẹ nhàng."
+        }
+      ],
+      "interaction_people": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "interaction_detail": "Cùng với những người khác thực hiện các động tác thể dục đồng bộ."
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện bên trái người chính, tóc buộc đuôi ngựa, mặc áo crop top màu hồng, quần đùi đen, giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng với hai chân dạng rộng hơn vai, hai tay chống hông, thực hiện các động tác nhún người và xoay hông nhẹ nhàng."
+        }
+      ],
+      "interaction_people": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "interaction_detail": "Cùng với những người khác thực hiện các động tác thể dục đồng bộ."
+    },
+    {
+      "id": 3,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện chính giữa khung hình, tóc búi cao, mặc áo crop top màu hồng, quần đùi đen, tất cao cổ trắng, giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "20-30",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng với hai chân dạng rộng hơn vai, hai tay chống hông, thực hiện các động tác nhún người và xoay hông nhẹ nhàng."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "interaction_detail": "Thực hiện các động tác thể dục đồng bộ cùng với những người khác."
+    },
+    {
+      "id": 4,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện bên phải người chính, tóc buộc đuôi ngựa, mặc áo crop top màu hồng, quần đùi đen, giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng với hai chân dạng rộng hơn vai, hai tay chống hông, thực hiện các động tác nhún người và xoay hông nhẹ nhàng."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "interaction_detail": "Cùng với những người khác thực hiện các động tác thể dục đồng bộ."
+    },
+    {
+      "id": 5,
+      "time": "00:00-00:05",
+      "appearance": "Xuất hiện ở góc phải khung hình, tóc buộc đuôi ngựa, mặc áo crop top màu hồng, quần đùi đen, giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:05",
+          "type": "movement",
+          "description": "Đứng với hai chân dạng rộng hơn vai, hai tay chống hông, thực hiện các động tác nhún người và xoay hông nhẹ nhàng."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "interaction_detail": "Cùng với những người khác thực hiện các động tác thể dục đồng bộ."
+    }
+  ],
+  "summary": "Năm người phụ nữ đang thực hiện các động tác thể dục đồng bộ trong một căn phòng có gương. Tất cả đều mặc trang phục thể thao gồm áo crop top màu hồng và quần đùi đen. Người phụ nữ ở giữa dường như là người hướng dẫn, thực hiện động tác tương tự những người khác. Các động tác chủ yếu là nhún người và xoay hông nhẹ nhàng, với hai tay chống hông. Họ thực hiện các động tác theo nhạc trong suốt thời lượng video."
+}

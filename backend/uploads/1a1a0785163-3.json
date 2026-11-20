@@ -1,0 +1,29 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:14",
+      "appearance": "Xuất hiện ở trung tâm khung hình, trên thảm tập màu xám. Mặc áo phông ngắn tay màu xanh ngọc, quần đùi đen, tất trắng và giày thể thao trắng xanh. Tóc ngắn màu nâu sẫm, râu ngắn. Có một khung hình nhỏ ở góc trên bên trái hiển thị cùng người này.",
+      "gender": "Nam",
+      "age": "30-40",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:01",
+          "type": "action",
+          "description": "Đứng yên trên thảm tập, hai tay và chân bắt đầu chuyển động nhẹ để chuẩn bị."
+        },
+        {
+          "start": "00:01",
+          "end": "00:14",
+          "type": "movement",
+          "description": "Thực hiện liên tục động tác jumping jacks: nhảy bật hai chân sang ngang và vung hai tay lên cao qua đầu, sau đó thu về vị trí ban đầu."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    }
+  ],
+  "summary": "Video ghi lại cảnh một người đàn ông tập thể dục trong một căn phòng. Người đàn ông mặc áo phông xanh ngọc và quần đùi đen, đứng trên thảm tập màu xám. Anh ta liên tục thực hiện động tác nhảy bật chân và vung tay (jumping jacks). Một khung hình nhỏ ở góc trên bên trái cũng hiển thị người đàn ông này thực hiện động tác tương tự."
+}

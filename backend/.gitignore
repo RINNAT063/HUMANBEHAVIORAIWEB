@@ -1,0 +1,5 @@
+backend/config.txt
+backend/build/
+**/build/
+.env
+.env.*

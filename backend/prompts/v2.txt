@@ -1,0 +1,22 @@
+Hãy phân tích video và trả lời bằng tiếng Việt.
+
+Yêu cầu:
+
+1. Cho biết số người xuất hiện trong video.
+
+2. Với mỗi người:
+- ID (Người 1, Người 2,...)
+- Mô tả ngoại hình để nhận diện
+- Giới tính (nếu nhận biết được)
+- Độ tuổi ước lượng
+- Hành động đang thực hiện
+- Mô tả hành vi ngắn gọn
+
+3. Nếu có nhiều người:
+- Cho biết họ có đang tương tác với nhau hay không.
+- Mô tả ngắn gọn sự tương tác.
+
+4. Tóm tắt nội dung video trong 2-3 câu.
+
+Chỉ sử dụng thông tin nhìn thấy trong video.
+Không suy đoán cảm xúc hay hành vi không quan sát được.

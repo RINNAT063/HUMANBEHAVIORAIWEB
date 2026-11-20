@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActionAI - Giám sát tài nguyên</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page">
+    <header class="topbar">
+        <button id="menuBtn">☰</button>
+        <img src="assets/logo.png" class="top-logo" alt="ActionAI Logo">
+        <span class="brand">ActionAI</span>
+    </header>
+
+    <div id="overlay" class="overlay"></div>
+
+    <aside id="sidebar" class="sidebar">
+
+        <div class="sidebar-header">
+
+            <img src="assets/logo.png" alt="logo" class="logo">
+            
+            <h2>Giám sát</h2>
+
+        </div>
+
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            
+            <a href="analyze.html">Thực hiện</a>
+            
+            <a href="monitor.html" class="active">Giám sát hệ thống</a>
+
+            <a href="overview.html">Tổng quan Monitor</a>
+            
+            <a href="documents.html">Tài liệu &amp; Mã nguồn</a>
+        </nav>
+    
+    </aside>
+
+    <main class="main-content">
+        <section class="hero">
+            <div class="hero-overlay">
+                <h1>
+                    Trung tâm giám sát tài nguyên
+                </h1>
+                <p>
+                    Theo dõi tài nguyên máy chủ và hàng đợi phân tích video theo thời gian thực.
+                </p>
+                <span 
+                id="monitorConnection"
+                class="connection-badge connecting">
+                    Đang kết nối
+                </span>
+            </div>
+        </section>
+
+        <section class="monitor-dashboard">
+            <div class="gauge-row">
+                <article class="gauge-card">
+                    <h2>CPU hệ thống</h2>
+                    <div id="cpuGauge" class="resource-gauge">
+                        <div><strong id="cpuValue">0%</strong><span>CPU</span></div>
+                    </div>
+                </article>
+                <article class="gauge-card">
+                    <h2>RAM hệ thống</h2>
+                    <div id="ramGauge" class="resource-gauge">
+                        <div><strong id="ramValue">0%</strong><span id="ramDetail">0 / 0 MB</span></div>
+                    </div>
+                </article>
+                <article class="gauge-card">
+                    <h2>Dung lượng ổ đĩa</h2>
+                    <div id="diskGauge" class="resource-gauge">
+                        <div><strong id="diskValue">0%</strong><span id="diskDetail">0 / 0 GB</span></div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="stat-cards">
+                <article><span>Đang chờ</span><strong id="pendingCount">0</strong></article>
+                <article><span>Đang chạy</span><strong id="runningCount">0</strong></article>
+                <article><span>Hoàn thành</span><strong id="completedCount">0</strong></article>
+                <article><span>Thất bại</span><strong id="failedCount">0</strong></article>
+            </div>
+
+            <section class="task-panel">
+                <div class="task-panel-title">
+                    <div>
+                        <p class="monitor-kicker">TASK QUEUE</p>
+                        <h2>Các tác vụ gần đây</h2>
+                    </div>
+                    <span>Tự động cập nhật mỗi 2 giây</span>
+                </div>
+                <div class="task-table-wrap">
+                    <table class="task-table">
+                        <thead>
+                            <tr>
+                                <th>Mã tác vụ</th>
+                                <th>Trạng thái</th>
+                                <th>Dung lượng</th>
+                                <th>Thời gian</th>
+                                <th>Tốc độ</th>
+                                <th>Ngày tạo</th>
+                            </tr>
+                        </thead>
+                        <tbody id="taskTableBody">
+                            <tr><td colspan="6" class="empty-state">Chưa có tác vụ.</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </section>
+
+        <footer>Copyright © ActionAI 2026</footer>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/monitor.js"></script>
+</body>
+</html>

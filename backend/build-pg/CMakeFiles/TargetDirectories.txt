@@ -1,0 +1,3 @@
+C:/HEDIEUHANH/HumanBehaviorAI (2)/HumanBehaviorAI/backend/build-pg/CMakeFiles/server.dir
+C:/HEDIEUHANH/HumanBehaviorAI (2)/HumanBehaviorAI/backend/build-pg/CMakeFiles/edit_cache.dir
+C:/HEDIEUHANH/HumanBehaviorAI (2)/HumanBehaviorAI/backend/build-pg/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,243 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:15",
+      "appearance": "Xuất hiện ở góc phải khung hình, tóc ngắn màu xám, đeo kính, mặc áo dài tay màu xám nhạt.",
+      "gender": "Nữ",
+      "age": "65-75",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:01",
+          "type": "movement",
+          "description": "Nâng hai tay nắm đấm lên cao ngang đầu và hạ xuống ngang vai."
+        },
+        {
+          "start": "00:01",
+          "end": "00:02",
+          "type": "movement",
+          "description": "Gập khuỷu tay, đưa hai nắm đấm về phía trước ngực."
+        },
+        {
+          "start": "00:02",
+          "end": "00:04",
+          "type": "movement",
+          "description": "Đưa hai tay xuống thấp và nghiêng người nhẹ sang trái."
+        },
+        {
+          "start": "00:04",
+          "end": "00:06",
+          "type": "movement",
+          "description": "Nâng hai tay lên cao qua đầu, sau đó hạ xuống."
+        },
+        {
+          "start": "00:06",
+          "end": "00:08",
+          "type": "movement",
+          "description": "Giơ hai tay nắm đấm lên cao, khuỷu tay cong."
+        },
+        {
+          "start": "00:08",
+          "end": "00:10",
+          "type": "movement",
+          "description": "Hạ hai tay xuống ngang eo và xoay người nhẹ."
+        },
+        {
+          "start": "00:10",
+          "end": "00:15",
+          "type": "movement",
+          "description": "Nâng hai tay nắm đấm lên cao, khuỷu tay cong và giữ nguyên tư thế."
+        }
+      ],
+      "interaction_people": [
+        2,
+        3,
+        4
+      ],
+      "interaction_detail": "Cùng thực hiện các động tác thể dục giống với những người khác và theo sự hướng dẫn của Người 4."
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:15",
+      "appearance": "Xuất hiện ở giữa khung hình, tóc ngắn màu đen, mặc áo dài tay màu hồng nhạt.",
+      "gender": "Nữ",
+      "age": "60-70",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:01",
+          "type": "movement",
+          "description": "Nâng hai tay nắm đấm lên cao ngang đầu và hạ xuống ngang vai."
+        },
+        {
+          "start": "00:01",
+          "end": "00:02",
+          "type": "movement",
+          "description": "Gập khuỷu tay, đưa hai nắm đấm về phía trước ngực."
+        },
+        {
+          "start": "00:02",
+          "end": "00:04",
+          "type": "movement",
+          "description": "Đưa hai tay xuống thấp và nghiêng người nhẹ sang phải."
+        },
+        {
+          "start": "00:04",
+          "end": "00:06",
+          "type": "movement",
+          "description": "Nâng hai tay lên cao qua đầu, sau đó hạ xuống."
+        },
+        {
+          "start": "00:06",
+          "end": "00:08",
+          "type": "movement",
+          "description": "Giơ hai tay nắm đấm lên cao, khuỷu tay cong."
+        },
+        {
+          "start": "00:08",
+          "end": "00:10",
+          "type": "movement",
+          "description": "Hạ hai tay xuống ngang eo và xoay người nhẹ."
+        },
+        {
+          "start": "00:10",
+          "end": "00:15",
+          "type": "movement",
+          "description": "Nâng hai tay nắm đấm lên cao, khuỷu tay cong và giữ nguyên tư thế."
+        }
+      ],
+      "interaction_people": [
+        1,
+        3,
+        4
+      ],
+      "interaction_detail": "Cùng thực hiện các động tác thể dục giống với những người khác và theo sự hướng dẫn của Người 4."
+    },
+    {
+      "id": 3,
+      "time": "00:00-00:15",
+      "appearance": "Xuất hiện ở phía sau Người 2, tóc ngắn màu đen, mặc áo thun trắng bên trong và khoác áo khoác xanh đậm bên ngoài.",
+      "gender": "Nữ",
+      "age": "60-70",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:01",
+          "type": "movement",
+          "description": "Nâng hai tay nắm đấm lên cao ngang đầu và hạ xuống ngang vai."
+        },
+        {
+          "start": "00:01",
+          "end": "00:02",
+          "type": "movement",
+          "description": "Gập khuỷu tay, đưa hai nắm đấm về phía trước ngực."
+        },
+        {
+          "start": "00:02",
+          "end": "00:04",
+          "type": "movement",
+          "description": "Đưa hai tay xuống thấp và nghiêng người nhẹ sang phải."
+        },
+        {
+          "start": "00:04",
+          "end": "00:06",
+          "type": "movement",
+          "description": "Nâng hai tay lên cao qua đầu, sau đó hạ xuống."
+        },
+        {
+          "start": "00:06",
+          "end": "00:08",
+          "type": "movement",
+          "description": "Giơ hai tay nắm đấm lên cao, khuỷu tay cong."
+        },
+        {
+          "start": "00:08",
+          "end": "00:10",
+          "type": "movement",
+          "description": "Hạ hai tay xuống ngang eo và xoay người nhẹ."
+        },
+        {
+          "start": "00:10",
+          "end": "00:15",
+          "type": "movement",
+          "description": "Nâng hai tay nắm đấm lên cao, khuỷu tay cong và giữ nguyên tư thế."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        4
+      ],
+      "interaction_detail": "Cùng thực hiện các động tác thể dục giống với những người khác và theo sự hướng dẫn của Người 4."
+    },
+    {
+      "id": 4,
+      "time": "00:00-00:15",
+      "appearance": "Ban đầu chỉ xuất hiện cánh tay trái ở góc trái khung hình. Từ 00:12, xuất hiện toàn bộ phần thân trên, mặc áo y tá màu xanh dương, có ống nghe y tế quanh cổ, tóc đen buộc thấp.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Hướng dẫn tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:01",
+          "type": "movement",
+          "description": "Giơ tay lên cao nắm đấm và hạ xuống."
+        },
+        {
+          "start": "00:01",
+          "end": "00:02",
+          "type": "movement",
+          "description": "Hạ tay xuống ngang vai, nắm đấm hướng vào nhau."
+        },
+        {
+          "start": "00:02",
+          "end": "00:04",
+          "type": "movement",
+          "description": "Hạ tay xuống và lắc nhẹ người sang phải."
+        },
+        {
+          "start": "00:04",
+          "end": "00:06",
+          "type": "movement",
+          "description": "Đưa tay lên cao khỏi đầu và hạ xuống."
+        },
+        {
+          "start": "00:06",
+          "end": "00:08",
+          "type": "movement",
+          "description": "Giơ hai tay nắm đấm lên cao."
+        },
+        {
+          "start": "00:08",
+          "end": "00:10",
+          "type": "movement",
+          "description": "Hạ hai tay xuống ngang eo và xoay người nhẹ."
+        },
+        {
+          "start": "00:10",
+          "end": "00:12",
+          "type": "movement",
+          "description": "Đưa hai tay lên cao, nắm đấm."
+        },
+        {
+          "start": "00:12",
+          "end": "00:15",
+          "type": "action",
+          "description": "Đứng xoay lưng về phía trước, hai tay giơ cao nắm đấm, hướng dẫn các động tác cho những người khác."
+        }
+      ],
+      "interaction_people": [
+        1,
+        2,
+        3
+      ],
+      "interaction_detail": "Hướng dẫn các động tác thể dục cho những người khác, và những người khác đang thực hiện theo các động tác của Người 4."
+    }
+  ],
+  "summary": "Video quay cảnh bốn người phụ nữ đang cùng nhau tập thể dục trong nhà. Ba phụ nữ lớn tuổi hơn đang thực hiện các động tác tay và cơ thể nhịp nhàng. Một phụ nữ trẻ hơn mặc đồng phục y tế đứng ở phía trước, xoay lưng lại và hướng dẫn các động tác. Tất cả mọi người đều thực hiện các động tác tương tự nhau, theo một nhịp điệu chung."
+}

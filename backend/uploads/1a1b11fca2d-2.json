@@ -1,0 +1,75 @@
+{
+"people": [
+{
+"id": 1,
+"time": "00:00-00:13",
+"appearance": "Xuất hiện bên trái khung hình, tóc nâu, đeo kính râm, mặc áo sơ mi sọc xanh trắng, quần jean xanh, giày trắng, có vòng tay đen ở cổ tay phải.",
+"gender": "Nam",
+"age": "20-30",
+"behavior": "Đối thoại, rời đi",
+"actions": [
+{
+"start": "00:00",
+"end": "00:09",
+"type": "action",
+"description": "Đứng đối diện Người 2, cử động tay phải, gật đầu và mở miệng."
+},
+{
+"start": "00:09",
+"end": "00:13",
+"type": "movement",
+"description": "Bước lùi và quay người sang trái, giữ cổ tay Người 2 một lúc rồi buông ra."
+},
+{
+"start": "00:13",
+"end": "00:20",
+"type": "absent",
+"description": "Di chuyển ra khỏi khung hình về phía bên trái."
+}
+],
+"interaction_people": [
+2
+],
+"interaction_detail": "Người 1 đứng đối diện Người 2, quay sang và nói chuyện với Người 2."
+},
+{
+"id": 2,
+"time": "00:00-00:20",
+"appearance": "Xuất hiện bên phải khung hình, tóc dài đen, mặc áo phông đỏ, áo khoác cardigan màu xám đậm, quần dài màu xanh ngọc.",
+"gender": "Nữ",
+"age": "20-30",
+"behavior": "Đối thoại, níu giữ",
+"actions": [
+{
+"start": "00:00",
+"end": "00:09",
+"type": "action",
+"description": "Đứng đối diện Người 1, liên tục cử động tay và miệng, thỉnh thoảng nghiêng người."
+},
+{
+"start": "00:09",
+"end": "00:12",
+"type": "action",
+"description": "Vươn tay giữ cổ tay Người 1 và hơi cúi người xuống."
+},
+{
+"start": "00:12",
+"end": "00:14",
+"type": "movement",
+"description": "Đứng thẳng lại và quay người sang trái, nhìn theo hướng Người 1 rời đi."
+},
+{
+"start": "00:14",
+"end": "00:20",
+"type": "action",
+"description": "Đứng một mình ở giữa khung hình, nhìn về phía bên trái."
+}
+],
+"interaction_people": [
+1
+],
+"interaction_detail": "Người 2 đứng đối diện Người 1, liên tục cử động tay và miệng. Người 2 níu tay Người 1 khi Người 1 bỏ đi."
+}
+],
+"summary": "Video quay cảnh một người nam và một người nữ đang đối diện và nói chuyện trên một cây cầu. Người nữ liên tục cử chỉ và nói chuyện với người nam. Người nam sau đó quay người và bước đi, bị người nữ níu tay lại. Cuối cùng, người nam rời khỏi khung hình, để lại người nữ đứng một mình."
+}

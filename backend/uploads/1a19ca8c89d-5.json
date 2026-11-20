@@ -1,0 +1,45 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:03",
+      "appearance": "Xuất hiện ở bên trái khung hình, tóc ngắn màu đen, mặc áo thun trắng, quần đùi đen và giày thể thao trắng.",
+      "gender": "Nam",
+      "age": "25-35",
+      "behavior": "Tập thể dục, Nhảy",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:03",
+          "type": "movement",
+          "description": "Thực hiện động tác nhảy, hai tay và hai chân di chuyển ra vào nhịp nhàng."
+        }
+      ],
+      "interaction_people": [
+        2
+      ],
+      "interaction_detail": "Người 1 và Người 2 cùng thực hiện động tác nhảy nhịp nhàng."
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:03",
+      "appearance": "Xuất hiện ở bên phải khung hình, tóc dài buộc cao màu đen, mặc áo bra thể thao màu đen, quần legging đen và giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "25-35",
+      "behavior": "Tập thể dục, Nhảy",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:03",
+          "type": "movement",
+          "description": "Thực hiện động tác nhảy, hai tay và hai chân di chuyển ra vào nhịp nhàng."
+        }
+      ],
+      "interaction_people": [
+        1
+      ],
+      "interaction_detail": "Người 2 và Người 1 cùng thực hiện động tác nhảy nhịp nhàng."
+    }
+  ],
+  "summary": "Video quay cảnh hai người đang thực hiện bài tập thể dục khởi động. Một người nam và một người nữ đứng song song, thực hiện động tác nhảy kết hợp vung tay. Cả hai đều mặc trang phục thể thao và thực hiện các động tác đồng bộ trên thảm tập."
+}

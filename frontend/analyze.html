@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>ActionAI - Trang thực hiện</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css">
+</head>
+
+<body class="page">
+
+
+    <header class="topbar">
+
+        <button id="menuBtn">
+            ☰
+        </button>
+
+
+        <img
+            src="assets/logo.png"
+            alt="ActionAI Logo"
+            class="top-logo">
+
+
+        <span class="brand">
+            ActionAI
+        </span>
+
+    </header>
+
+    <div
+        id="overlay"
+        class="overlay">
+    </div>
+
+    <aside id="sidebar" class="sidebar">
+
+        <div class="sidebar-header">
+
+            <img src="assets/logo.png" alt="logo" class="logo">
+
+            <h2>Giám sát</h2>
+
+        </div>
+
+        <nav>
+            <a href="index.html">Trang chủ</a>
+
+            <a href="analyze.html" class="active">Thực hiện</a>
+
+            <a href="monitor.html">Giám sát hệ thống</a>
+
+            <a href="overview.html">Tổng quan Monitor</a>
+
+            <a href="documents.html">Tài liệu &amp; Mã nguồn</a>
+        </nav>
+        
+    </aside>
+
+
+
+<main class="main-content">
+
+
+    <section class="hero">
+
+        <div class="hero-overlay">
+
+            <h1>
+                Thử Nghiệm Phân Tích
+                Hành Động Qua Video
+            </h1>
+
+            <p>
+                Tải lên video để hệ thống AI phân tích
+                đối tượng, hành động và tương tác xuất hiện
+                trong video.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="process-section">
+
+        <button
+            id="processToggle"
+            class="process-title">
+
+            <span>
+                QUY TRÌNH 5 BƯỚC XỬ LÍ
+                ĐƯỢC THỰC HIỆN ĐỂ PHÂN TÍCH VIDEO
+            </span>
+
+            <span
+                id="processArrow"
+                class="process-arrow">
+
+                ▼
+
+            </span>
+
+        </button>
+
+
+        <div
+            id="processContent"
+            class="process-content">
+
+            <div class="process-grid">
+
+                <div class="process-item">
+
+                    <span class="step-number">
+                        1
+                    </span>
+
+                    <h3>
+                        Tải video
+                    </h3>
+
+                    <p>
+                        Người dùng lựa chọn video
+                        từ máy tính.
+                    </p>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="step-number">
+                        2
+                    </span>
+
+                    <h3>
+                        Gửi video
+                    </h3>
+
+                    <p>
+                        Video được gửi đến
+                        máy chủ ActionAI.
+                    </p>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="step-number">
+                        3
+                    </span>
+
+                    <h3>
+                        Xử lý video
+                    </h3>
+
+                    <p>
+                        Hệ thống tải video lên
+                        mô hình AI.
+                    </p>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="step-number">
+                        4
+                    </span>
+
+                    <h3>
+                        Phân tích
+                    </h3>
+
+                    <p>
+                        AI nhận diện người,
+                        hành động và tương tác.
+                    </p>
+
+                </div>
+
+
+                <div class="process-item">
+
+                    <span class="step-number">
+                        5
+                    </span>
+
+                    <h3>
+                        Trả kết quả
+                    </h3>
+
+                    <p>
+                        Kết quả được hiển thị
+                        trên giao diện.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section class="upload-section">
+
+
+        <input
+            type="file"
+            id="videoFile"
+            accept="video/*"
+            hidden>
+
+
+        <label
+            for="videoFile"
+            class="upload-box"
+            id="uploadBox">
+
+
+            <div class="upload-icon">
+                ↑
+            </div>
+
+
+            <h2>
+                Tải video lên
+            </h2>
+
+
+            <p>
+                Nhấp vào đây để chọn video
+                từ máy tính
+            </p>
+
+
+            <span>
+                Hỗ trợ các định dạng video thông dụng
+            </span>
+
+
+        </label>
+
+
+
+        <div
+            id="fileInfo"
+            class="file-info">
+        </div>
+
+
+
+        <div
+            id="videoPreviewContainer"
+            class="video-preview-container hidden">
+
+            <video
+                id="videoPreview"
+                controls>
+            </video>
+
+        </div>
+
+
+
+        <div class="analyze-actions">
+            <button
+                class="analyze-btn"
+                onclick="uploadVideo()">
+                PHÂN TÍCH VIDEO
+            </button>
+
+            <button
+                type="button"
+                id="openMonitorBtn"
+                class="monitor-popup-btn">
+                Giám sát tài nguyên
+            </button>
+        </div>
+
+        <div
+            id="loading"
+            class="analysis-loading hidden">
+
+            <div class="loading-spinner"></div>
+
+            <p>
+                Đang tải và phân tích video...
+            </p>
+
+        </div>
+
+
+    </section>
+
+    <div id="monitorModal" class="monitor-modal hidden" aria-hidden="true">
+        <div id="monitorModalBackdrop" class="monitor-modal-backdrop"></div>
+        <div class="monitor-modal-panel" role="dialog" aria-modal="true" aria-labelledby="monitorModalTitle">
+            <div class="monitor-modal-header">
+                <div>
+                    <p class="monitor-kicker">RESOURCE MONITOR</p>
+                    <h2 id="monitorModalTitle">Giám sát tài nguyên</h2>
+                </div>
+                <div class="monitor-modal-header-right">
+                    <span id="monitorConnection" class="connection-badge connecting">Đang kết nối</span>
+                    <button type="button" id="closeMonitorBtn" class="monitor-modal-close" aria-label="Đóng">×</button>
+                </div>
+            </div>
+
+            <div class="monitor-dashboard monitor-dashboard-popup">
+                <div class="gauge-row">
+                    <article class="gauge-card">
+                        <h2>CPU hệ thống</h2>
+                        <div id="cpuGauge" class="resource-gauge">
+                            <div><strong id="cpuValue">0%</strong><span>CPU</span></div>
+                        </div>
+                    </article>
+                    <article class="gauge-card">
+                        <h2>RAM hệ thống</h2>
+                        <div id="ramGauge" class="resource-gauge">
+                            <div><strong id="ramValue">0%</strong><span id="ramDetail">0 / 0 MB</span></div>
+                        </div>
+                    </article>
+                    <article class="gauge-card">
+                        <h2>Dung lượng ổ đĩa</h2>
+                        <div id="diskGauge" class="resource-gauge">
+                            <div><strong id="diskValue">0%</strong><span id="diskDetail">0 / 0 GB</span></div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="stat-cards">
+                    <article><span>Đang chờ</span><strong id="pendingCount">0</strong></article>
+                    <article><span>Đang chạy</span><strong id="runningCount">0</strong></article>
+                    <article><span>Hoàn thành</span><strong id="completedCount">0</strong></article>
+                    <article><span>Thất bại</span><strong id="failedCount">0</strong></article>
+                </div>
+
+                <section class="task-panel">
+                    <div class="task-panel-title">
+                        <div>
+                            <p class="monitor-kicker">TASK QUEUE</p>
+                            <h2>Các tác vụ gần đây</h2>
+                        </div>
+                        <span>Tự động cập nhật mỗi 2 giây</span>
+                    </div>
+                    <div class="task-table-wrap">
+                        <table class="task-table">
+                            <thead>
+                                <tr>
+                                    <th>Mã tác vụ</th>
+                                    <th>Trạng thái</th>
+                                    <th>Dung lượng</th>
+                                    <th>Thời gian</th>
+                                    <th>Tốc độ</th>
+                                    <th>Ngày tạo</th>
+                                </tr>
+                            </thead>
+                            <tbody id="taskTableBody">
+                                <tr><td colspan="6" class="empty-state">Chưa có tác vụ.</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+
+    <section
+        id="resultSection"
+        class="result-section">
+
+
+        <div
+            id="result">
+        </div>
+
+
+    </section>
+
+
+
+    <footer>
+
+        Copyright © ActionAI 2026
+
+    </footer>
+
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="js/script.js"></script>
+<script src="js/monitor.js"></script>
+
+</body>
+</html>

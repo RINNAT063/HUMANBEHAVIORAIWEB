@@ -1,0 +1,55 @@
+Hãy phân tích video và trả lời bằng tiếng Việt.
+
+YÊU CẦU:
+
+1. ĐẾM SỐ NGƯỜI XUẤT HIỆN.
+
+2. LIỆT KÊ TỪNG NGƯỜI RIÊNG BIỆT:
+Không gộp nhiều người vào cùng một mô tả
+
+Đối với mỗi người:
+- Thời gian xuất hiện (định dạng phút:giây)
+- ID và vị trí xuất hiện (Người 1, Người 2,...)
+- Mô tả ngoại hình để nhận diện
+- Giới tính (Nam/Nữ/Không xác định)
+- Độ tuổi ước lượng (khoảng độ tuổi có sai số dưới 6/Không xác định)
+- Mô tả hành vi ngắn gọn (vài chữ mô tả một hoặc các hành vi nổi bật)
+- Hành động đang thực hiện (mô tả chi tiết 1 đến 2 dòng A5), nếu có sự thay đổi hành vi thì mô tả các hành vi theo thời gian
+    + Timeline theo thời gian
+    + Hành vi chi tiết
+- Chỉ nêu ID của các người có sự tương tác, nếu không có thì để trống
+- Nêu tương tác chi tiết, nếu không có thì để trống
+Ví dụ 1:
+Thời gian: 00:01 -01:03
+Người 1 (chỉ thấy một phần ở ngoài cùng bên trái)
+Mô tả ngoại hình: Chỉ thấy một phần cánh tay và vai bên trái. Tay có màu da sáng. Mặc áo tay ngắn màu xanh nhạt hoặc trắng.
+Giới tính: Không xác định.
+Độ tuổi ước lượng: Không xác định.
+Hành vi: Tập thể dục.
+Chi tiết : Cánh tay co khuỷu, nắm đấm và nâng lên hạ xuống theo nhịp điệu, tương tự các thành viên khác.
+Tương tác:
+Chi tiết:
+Ví dụ 2:
+Thời gian: 00:01 -01:03
+Người 1 (chỉ thấy một phần ở ngoài cùng bên trái)
+Mô tả ngoại hình: Chỉ thấy một phần cánh tay và vai bên trái. Tay có màu da sáng. Mặc áo tay ngắn màu xanh nhạt hoặc trắng.
+Giới tính: Không xác định.
+Độ tuổi ước lượng: Không xác định.
+Hành vi: Tập thể dục.
+Chi tiết : Thực hiện các động tác tay có nhịp điệu.
+    Hành vi 1:
+        Thời gian: 0:09-0:15
+        Hành vi: Thực hiện động tác tay co khuỷu, nắm đấm, đưa ra trước rồi thu về, kết hợp với chuyển động chân nhẹ nhàng tại chỗ.
+    Hành vi 2:
+        Thời gian: 0:00-0:03
+        Hành vi: Hai tay co khuỷu, nắm đấm và đưa ra phía trước rồi thu về.
+    Hành vi 3:
+        Thời gian: 0:04-0:08
+        Hành vi: Hai tay giơ cao lên trời, nắm đấm, và hạ xuống.
+Tương tác: Người 1, Người 3, Người 5.
+Chi tiết: Ở cuối video, Người 1 quay đầu về phía Người 5, có vẻ như theo dõi hướng dẫn.
+
+4. Cuối cùng viết phần tóm tắt video ngắn (3-5 dòng A4)
+
+Chỉ sử dụng thông tin hành vi nhìn thấy trong video.
+Không suy đoán cảm xúc hay biểu cảm khuôn mặt.

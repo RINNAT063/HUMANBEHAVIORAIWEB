@@ -1,0 +1,62 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:12",
+      "appearance": "Xuất hiện bên trái khung hình, tóc ngắn màu nâu sáng, đeo kính râm. Mặc áo sơ mi sọc xanh trắng, quần jean xanh nhạt.",
+      "gender": "Nam",
+      "age": "20-30",
+      "behavior": "Nói chuyện, di chuyển",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:09",
+          "type": "action",
+          "description": "Đứng đối diện Người 2, nói chuyện và thỉnh thoảng dùng tay chỉ hoặc đưa tay lên."
+        ,
+          "start": "00:09",
+          "end": "00:12",
+          "type": "movement",
+          "description": "Quay lưng lại với Người 2, bước đi về phía bên trái và ra khỏi khung hình."
+        }
+      ],
+      "interaction_people": [
+        2
+      ],
+      "interaction_detail": "Người 1 đứng đối diện Người 2, nói chuyện và dùng cử chỉ tay. Sau đó Người 1 quay lưng bước đi, Người 2 nắm lấy tay Người 1."
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:20",
+      "appearance": "Xuất hiện bên phải khung hình, tóc dài màu đen, mặc áo thun đỏ bên trong và áo khoác cardigan màu xám đậm bên ngoài, quần dài màu xanh ngọc.",
+      "gender": "Nữ",
+      "age": "20-30",
+      "behavior": "Nói chuyện, đứng yên, cử chỉ tay",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:09",
+          "type": "action",
+          "description": "Đứng đối diện Người 1, nói chuyện, dùng cử chỉ tay liên tục, thỉnh thoảng dựa vào lan can."
+        },
+        {
+          "start": "00:09",
+          "end": "00:11",
+          "type": "action",
+          "description": "Vươn tay nắm lấy cánh tay của Người 1 khi người này quay đi."
+        },
+        {
+          "start": "00:11",
+          "end": "00:20",
+          "type": "action",
+          "description": "Đứng một mình trên cầu, nhìn theo hướng Người 1 rời đi, thỉnh thoảng đưa tay lên ngực hoặc bóp chặt tay."
+        }
+      ],
+      "interaction_people": [
+        1
+      ],
+      "interaction_detail": "Người 2 đứng đối diện Người 1, nói chuyện và dùng cử chỉ tay liên tục. Sau đó Người 2 nắm lấy tay Người 1 khi người này quay lưng đi."
+    }
+  ],
+  "summary": "Video bắt đầu với cảnh một người đàn ông và một người phụ nữ đang đứng đối diện nhau trên cầu và nói chuyện, cả hai đều dùng nhiều cử chỉ tay. Sau đó, người đàn ông quay lưng và bước đi. Người phụ nữ cố gắng giữ anh ta lại bằng cách nắm lấy cánh tay. Khi người đàn ông rời khỏi khung hình, người phụ nữ vẫn đứng một mình trên cầu, nhìn theo hướng anh ta đi và thực hiện một số cử chỉ tay."
+}

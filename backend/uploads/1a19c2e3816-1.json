@@ -1,0 +1,41 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "time": "00:00-00:03",
+      "appearance": "Xuất hiện bên trái khung hình, tóc ngắn màu tối, mặc áo thun trắng, quần đùi đen, giày thể thao trắng.",
+      "gender": "Nam",
+      "age": "25-35",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:03",
+          "type": "movement",
+          "description": "Người này thực hiện động tác nhảy đưa chân và tay ra hai bên, sau đó khép lại, lặp đi lặp lại."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    },
+    {
+      "id": 2,
+      "time": "00:00-00:03",
+      "appearance": "Xuất hiện bên phải khung hình, tóc dài buộc gọn màu tối, mặc áo ngực thể thao màu đen, quần legging đen, giày thể thao trắng.",
+      "gender": "Nữ",
+      "age": "20-30",
+      "behavior": "Tập thể dục",
+      "actions": [
+        {
+          "start": "00:00",
+          "end": "00:03",
+          "type": "movement",
+          "description": "Người này thực hiện động tác nhảy đưa chân và tay ra hai bên, sau đó khép lại, lặp đi lặp lại."
+        }
+      ],
+      "interaction_people": [],
+      "interaction_detail": ""
+    }
+  ],
+  "summary": "Video quay một người nam và một người nữ đang tập thể dục trong phòng. Cả hai đều mặc trang phục thể thao và đứng trên thảm tập riêng biệt. Họ cùng thực hiện động tác nhảy vung tay và chân ra hai bên một cách đồng bộ. Góc trên bên phải màn hình có hiển thị một bộ đếm ngược thời gian."
+}

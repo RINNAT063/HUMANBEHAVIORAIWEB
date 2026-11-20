@@ -1,0 +1,8 @@
+# ninja log v7
+23	3540	8154903407527889	CMakeFiles/server.dir/src/task_stats.cpp.obj	f89ec7d28a8f7947
+66	5142	8154903407946674	CMakeFiles/server.dir/src/resource_monitor.cpp.obj	c1741fc22d4071c
+84	12867	8154903408146748	CMakeFiles/server.dir/src/database.cpp.obj	f433728a5accf2e7
+45	13551	8154903407746633	CMakeFiles/server.dir/src/task_manager.cpp.obj	91444999fc5f9bf1
+14	14353	8154903407421262	CMakeFiles/server.dir/src/gemini_service.cpp.obj	b48d69faa9e6f616
+7	28133	8154903407337202	CMakeFiles/server.dir/src/main.cpp.obj	c8f32cc25e0ad604
+28138	28595	8154903688652015	server.exe	5444dd97f561205f

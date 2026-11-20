@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActionAI - Resource Monitor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="overview-page">
+    <header class="topbar">
+        <button id="menuBtn">☰</button>
+        <img src="assets/logo.png" class="top-logo" alt="ActionAI">
+        <span class="brand">ActionAI</span>
+    </header>
+
+    <div id="overlay" class="overlay"></div>
+
+    <aside id="sidebar" class="sidebar">
+        <div class="sidebar-header">
+            <img src="assets/logo.png" alt="ActionAI" class="logo">
+            <h2>ActionAI</h2>
+        </div>
+
+        <nav>
+            <a href="index.html">Trang chủ</a>
+            <a href="analyze.html">Thực hiện</a>
+            <a href="monitor.html">Giám sát hệ thống</a>
+            <a href="overview.html" class="active">Tổng quan Monitor</a>
+            <a href="documents.html">Tài liệu &amp; Mã nguồn</a>
+        </nav>
+    </aside>
+
+
+    <main class="main-content">
+        <!-- Anh bia -->
+        <section class="overview-hero">
+            <div class="overview-hero-shade">
+                <p>ActionAI · Resource Analytics</p>
+                <h1>Tổng quan lịch sử sử dụng</h1>
+                <span>Phân tích lịch sử tài nguyên hệ thống và tác vụ video</span>
+            </div>
+        </section>
+
+        <div class="overview-content">
+            <header class="overview-heading">
+                <div>
+                    <h2>Giám sát hệ thống</h2>
+                    <p>Theo dõi tài nguyên trong quá trình phân tích video.</p>
+                </div>
+
+                <div class="overview-toolbar">
+                    <select id="overviewHours" aria-label="Khoảng thời gian">
+                        <option value="1">Trong 1 giờ qua</option>
+                        <option value="6">Trong 6 giờ qua</option>
+                        <option value="12">Trong 12 giờ qua</option>
+                        <option value="24" selected>Trong 24 giờ qua</option>
+                    </select>
+                    <button id="overviewRefresh" type="button">Làm mới</button>
+                </div>
+            </header>
+
+            <p id="overviewNotice" class="overview-notice">
+                Đang tải dữ liệu...
+            </p>
+
+            <!-- The thong ke -->
+            <section class="overview-stats-grid">
+                <article class="overview-card">
+                    <div class="overview-card-heading">
+                        <span>CPU</span>
+                        <span>⚡</span>
+                    </div>
+                    <div class="overview-stat-content">
+                        <div class="overview-ring cpu-ring" id="cpuRing">
+                            <strong id="cpuLatest">--</strong>
+                        </div>
+                        <dl>
+                            <div><dt>Trung bình</dt><dd id="cpuAverage">--</dd></div>
+                            <div><dt>Cao nhất</dt><dd id="cpuPeak">--</dd></div>
+                            <div><dt>Gần nhất</dt><dd id="cpuRecent">--</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <article class="overview-card">
+                    <div class="overview-card-heading">
+                        <span>Memory (RAM)</span>
+                        <span>▣</span>
+                    </div>
+                    <div class="overview-stat-content">
+                        <div class="overview-ring ram-ring" id="ramRing">
+                            <strong id="ramLatest">--</strong>
+                        </div>
+                        <dl>
+                            <div><dt>Trung bình</dt><dd id="ramAverage">--</dd></div>
+                            <div><dt>Cao nhất</dt><dd id="ramPeak">--</dd></div>
+                            <div><dt>Gần nhất</dt><dd id="ramRecent">--</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <article class="overview-card">
+                    <div class="overview-card-heading">
+                        <span>Disk Space</span>
+                        <span>◈</span>
+                    </div>
+                    <div class="overview-stat-content">
+                        <div class="overview-ring disk-ring" id="diskRing">
+                            <strong id="diskLatest">--</strong>
+                        </div>
+                        <dl>
+                            <div><dt>Trung bình</dt><dd id="diskAverage">--</dd></div>
+                            <div><dt>Cao nhất</dt><dd id="diskPeak">--</dd></div>
+                            <div><dt>Gần nhất</dt><dd id="diskRecent">--</dd></div>
+                        </dl>
+                    </div>
+                </article>
+
+                <article class="overview-card">
+                    <div class="overview-card-heading">
+                        <span>Hệ điều hành (OS)</span>
+                        <span>▤</span>
+                    </div>
+                    <div class="overview-os">
+                        <h3>Windows</h3>
+                        <p>Nền tảng backend: Windows</p>
+                        <p>Hệ thống: <b>ActionAI</b></p>
+                        <p>Tình trạng API: <b id="overviewApiStatus">Đang kết nối</b></p>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Hai bieu do -->
+            <section class="overview-charts-grid">
+                <article class="overview-card overview-chart-card">
+                    <div class="overview-panel-heading">
+                        <h3>Biểu đồ sử dụng tài nguyên</h3>
+                        <div class="overview-legend">
+                            <span><i class="dot cpu-dot"></i>CPU</span>
+                            <span><i class="dot ram-dot"></i>RAM</span>
+                        </div>
+                    </div>
+                    <canvas id="overviewLineChart" height="260"></canvas>
+                </article>
+
+                <article class="overview-card overview-chart-card">
+                    <div class="overview-panel-heading">
+                        <h3>Thay đổi RAM trong một lần chạy</h3>
+                        
+                        <div class="overview-legend">
+                            <span><i class="dot ram-before-dot"></i>Trước</span>
+                            <span><i class="dot ram-peak-dot"></i>Cao nhất</span>
+                            <span><i class="dot ram-after-dot"></i>Sau</span>
+                        </div>
+                    </div>
+                    <canvas id="overviewBarChart" height="260"></canvas>
+                </article>
+            </section>
+
+            
+            <!-- Bieu do tai nguyen phan tich video -->
+            <section class="overview-charts-grid" id="videoAnalyticsSection">
+                <article class="overview-card overview-chart-card">
+                    <div class="overview-panel-heading">
+                        <h3>CPU và RAM khi phân tích video</h3>
+                        
+<div class="overview-legend">
+    <span>
+        <i class="dot cpu-dot"></i>
+        CPU video (%)
+    </span>
+    <span>
+        <i class="dot ram-dot"></i>
+        RAM backend (MB)
+    </span>
+</div>
+
+                    </div>
+
+                    <p id="videoLineStatus" class="overview-small">
+                        Đang chờ dữ liệu tài nguyên video...
+                    </p>
+
+                    <canvas id="videoResourceLineChart" height="260"></canvas>
+                </article>
+
+                <article class="overview-card overview-chart-card">
+                    <div class="overview-panel-heading">
+                        <h3>So sánh tài nguyên các lần phân tích</h3>
+                        
+<div class="overview-toolbar">
+    <select id="videoComparisonMetric"
+            aria-label="Chọn chỉ số tài nguyên video">
+        <option value="peakCpu">CPU cao nhất (%)</option>
+        <option value="peakRamIncrease">RAM tăng cao nhất (MB)</option>
+        <option value="ioReadMb">I/O đọc ghi nhận (MB)</option>
+        <option value="ioWriteMb">I/O ghi ghi nhận (MB)</option>
+    </select>
+</div>
+
+                    </div>
+
+                    <p id="videoBarStatus" class="overview-small">
+                        Đang chờ dữ liệu các lần phân tích...
+                    </p>
+
+                    <canvas id="videoResourceBarChart" height="260"></canvas>
+                </article>
+            </section>
+
+            <p class="overview-small">
+                CPU video đo trên luồng xử lý cục bộ;
+                RAM là mức thay đổi bộ nhớ backend.
+                Dữ liệu I/O phản ánh hoạt động đọc/ghi được ghi nhận
+                trong quá trình phân tích.
+                Không bao gồm tài nguyên máy chủ Gemini.
+            </p>
+
+            <!-- Hai bang o phia duoi -->
+            <section class="overview-tables-grid">
+                <article class="overview-card">
+                    <div class="overview-panel-heading">
+                        <h3>Hàng đợi tác vụ</h3>
+                        <span id="overviewQueueSummary" class="overview-small">
+                            Đang tải...
+                        </span>
+                    </div>
+
+                    <div class="overview-table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Video</th>
+                                    <th>Thời gian</th>
+                                    <th>Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody id="overviewQueueBody">
+                                <tr><td colspan="4">Đang tải...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+
+                <article class="overview-card">
+                    <div class="overview-panel-heading">
+                        <h3>Kết quả phân tích gần đây</h3>
+                        <span class="overview-small">Theo bộ lọc thời gian</span>
+                    </div>
+
+                    <div class="overview-table-scroll">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Video</th>
+                                    <th>Thời gian chạy</th>
+                                    <th>Số người</th>
+                                    <th>Tổng hành động</th>
+                                    <th>Trạng thái</th>
+                                </tr>
+                            </thead>
+                            <tbody id="overviewResultsBody">
+                                <tr><td colspan="5">Đang tải...</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+
+            <footer>
+                Copyright © ActionAI 2026
+            </footer>
+        </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="js/overview.js"></script>
+</body>
+</html>

@@ -1,0 +1,153 @@
+Hãy phân tích video và trả lời bằng tiếng Việt.
+
+KẾT QUẢ PHẢI LÀ JSON HỢP LỆ.
+
+Sử dụng đúng schema sau:
+{
+  "people":[
+    {
+      "id":1,
+      "time":"",
+      "appearance":"",
+      "gender":"",
+      "age":"",
+      "behavior":"",
+      "actions":[
+        {
+          "start": "",
+          "end": "",
+          "type": "",
+          "description": ""
+        }
+      ],
+      "interaction_people":[],
+      "interaction_detail":""
+    }
+  ],
+  "summary":""
+}
+
+Không thêm markdown.
+Không thêm ```json.
+Không giải thích ngoài JSON.
+
+YÊU CẦU:
+1. Đếm số người xuất hiện.
+
+2. Liệt kê từng người riêng biệt.
+
+3. Chỉ sử dụng thông tin nhìn thấy trong video.
+
+4. Không suy đoán cảm xúc.
+
+5. Kết quả phải đúng theo schema trên.
+
+QUY TẮC CHUẨN HÓA DỮ LIỆU:
+1. "time"
+- Bắt buộc sử dụng định dạng mm:ss-mm:ss
+- Ví dụ:
+    "00:00-00:05"
+    "00:12-00:18"
+
+2. "appearance"
+Chỉ mô tả đặc điểm nhìn thấy được.
+  + vị trí chính xuất hiện trong khung hình
+  + trang phục
+  + màu sắc nổi bật
+  + đặc điểm dễ phân biệt (trừ giới tính)
+Ví dụ:
+"Xuất hiện cuối góc phải, tóc ngắn màu trắng, mặc áo xanh."
+"Chỉ xuất hiện tay chân ở bên trái, áo đen, quần dài màu xám."
+
+Không suy đoán nghề nghiệp, thân phận hoặc cảm xúc.
+
+2. "gender"
+Chỉ được sử dụng một trong ba giá trị:
+- "Nam"
+- "Nữ"
+- "Không xác định"
+
+3. "age"
+Bắt buộc sử dụng khoảng tuổi.
+
+Định dạng:
+"tuổi_thấp-tuổi_cao"
+
+Ví dụ:
+"18-25"
+"30-40"
+"65-75"
+
+Nếu không thể xác định:
+"Không xác định"
+
+4. "behavior"
+Chỉ mô tả hành vi tổng quát bằng một hoặc vài từ.
+
+Ví dụ:
+"Đi bộ"
+"Tập thể dục"
+"Đứng quan sát"
+"Nói chuyện"
+"Ngồi làm việc"
+"Ngồi"
+"Đứng"
+"Vẫy tay"
+
+Không sử dụng:
+"Vui vẻ"
+"Buồn"
+"Căng thẳng"
+"Lo lắng"
+"Hạnh phúc"
+
+Không viết mô tả dài.
+
+5. "actions"
+Mô tả chi tiết hành động quan sát được.
+
+Độ dài: 1-2 câu ngắn.
+
+Liệt kê các hành động theo thời gian, thời gian phải theo định dạng mm:ss
+
+Mọi hành động phải có start-end
+
+Nếu biến mất khỏi khung hình → type = "absent"
+
+Nếu xuất hiện nhưng đứng yên → type = "action" và vẫn mô tả hành động hoặc trạng thái đứng yên
+
+Nếu xuất hiện và có di chuyển → type = "movement" và mô tả hành động cho đến khi biến mất khỏi khung hình → type = "absent" 
+
+Các khoảng thời gian của actions phải liên tục, không chồng lấn.
+
+Không gộp nhiều hành động khác nhau vào cùng một mục.
+
+
+
+7. "interaction_people"
+Chỉ liệt kê ID những người có tương tác.
+
+Ví dụ:
+[2,3]
+[1,4,5]
+
+Nếu không có:
+[]
+
+8. "interaction_detail"
+- Mô tả chi tiết tương tác quan sát được.
+- Chỉ mô tả những gì nhìn thấy.
+- Không suy đoán ý định, cảm xúc hoặc suy nghĩ.
+
+Ví dụ:
+"Người 1 quay sang Người 2 và cùng thực hiện động tác."
+"Người 3 chỉ tay về phía Người 4."
+
+Nếu không có:
+""
+
+9. "summary"
+Viết 3-5 câu ngắn mô tả nội dung video.
+
+Chỉ mô tả những gì quan sát được.
+Không suy đoán cảm xúc, mục đích hoặc ý định.
