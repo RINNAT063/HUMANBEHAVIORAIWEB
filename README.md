@@ -37,6 +37,8 @@ cmake --build backend/build
 3. Kiểm tra thông báo khởi động server trong Terminal.
 4. Mở giao diện frontend theo cách triển khai của dự án.
 5. Bảo đảm frontend có thể kết nối đến backend.
+6. API key người dùng tự lấy để đảm bảo tính bảo mật, sử dụng Gemini model 2.5-flash từ
+   <a href="https://aistudio.google.com/api-keys">https://aistudio.google.com/api-keys</a>
 
 ### CHẠY Ở BACKEND FOLDER TRÊN TERMINAL
 
